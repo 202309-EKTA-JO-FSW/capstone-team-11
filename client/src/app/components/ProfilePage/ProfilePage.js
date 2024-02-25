@@ -8,10 +8,6 @@ const ProfilePage = () => {
   return (
     <div>
       <UserProfile/>
-    
-     
-    
-      
     </div>
   );
 };

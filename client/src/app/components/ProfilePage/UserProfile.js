@@ -42,12 +42,12 @@ function UserProfile() {
           </div>
 
           <div className="flex justify-end mt-4">
-            <button
-              className="py-1.5 px-3 m-1 text-center bg-violet-700 border rounded-md text-white hover:bg-violet-500 hover:text-gray-100 dark:text-gray-200 dark:bg-violet-700"
-              type="submit"
-            >
-              Save changes
-            </button>
+          <button
+  className="py-1.5 px-3 m-1 text-center bg-black border rounded-md text-white hover:bg-gray-800 dark:text-gray-200 dark:bg-black"
+  type="submit"
+>
+  Save changes
+</button>
           </div>
         </div>
       </form>
