@@ -29,6 +29,13 @@ module.exports = {
     },
   },
   theme: {
+    maxWidth: {
+      "1/4": "25%",
+      "1/2": "50%",
+      "3/4": "75%",
+    },
+  },
+  theme: {
     screens: {
       sm: { min: "640px", max: "767px" },
       // => @media (min-width: 640px and max-width: 767px) { ... }
