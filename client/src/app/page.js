@@ -5,6 +5,9 @@ import FeaturedEvents from "./components/FeaturedEvents";
 import VipCard from "./components/VipCard";
 import HeroSection from "./components/HeroSection";
 import Contact from "./components/Contact";
+import AboutUsSection from "./components/AboutUsSection/AboutUsSection";
+import LoginPopup from "./components/LoginPopup/LoginPopup";
+import ProfilePage from "./components/ProfilePage/ProfilePage";
 
 export default function Home() {
   return (
@@ -16,6 +19,12 @@ export default function Home() {
       <VipCard />
       <Footer />
       <Contact />
+          <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm flex">
+        {/* <Test /> */}
+        <AboutUsSection/>
+       <ProfilePage/>
+       <LoginPopup/>
+      </div>
     </main>
   );
 }
