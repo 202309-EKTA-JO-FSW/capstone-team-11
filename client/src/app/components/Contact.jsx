@@ -26,7 +26,7 @@ const Contact = () => {
                 </div>
 
                 <div className="mb-3 w-full">
-                    <label className="block font-poppins mb-[2px] text-#030303" htmlFor="exampleInput90">
+                    <label className="block font-poppins mb-[2px] text-[#030303]" htmlFor="exampleInput90">
                             Email
                     </label>
                     <input type="email" className="px-2 py-2 border w-full outline-none rounded-md" id="exampleInput90"
