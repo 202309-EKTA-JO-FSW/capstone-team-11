@@ -1,6 +1,6 @@
 import Test from "./components/Test";
 import AboutUsSection from "./components/AboutUsSection/AboutUsSection";
-import LoginPopup from "./components/LoginPopup/LoginPopup";
+import LoginForm from './components/LoginForm/LoginForm';
 import ProfilePage from "./components/ProfilePage/ProfilePage";
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
         {/* <Test /> */}
         <AboutUsSection/>
        <ProfilePage/>
-       <LoginPopup/>
+       <LoginForm/>
       </div>
     </main>
   );
