@@ -6,9 +6,10 @@ import VipCard from "./components/VipCard";
 import HeroSection from "./components/HeroSection";
 import Contact from "./components/Contact";
 import AboutUsSection from "./components/AboutUsSection/AboutUsSection";
-import LoginPopup from "./components/LoginPopup/LoginPopup";
+import LoginForm from './components/LoginForm/LoginForm';
 import ProfilePage from "./components/ProfilePage/ProfilePage";
 import EventForm from "./components/EventForm";
+import Reservation from "./components/Reservation";
 
 export default function Home() {
   return (
@@ -20,11 +21,13 @@ export default function Home() {
       <VipCard />
       <Footer />
       <Contact />
-        <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm flex">
+        <div className="w-full items-center justify-between font-mono text-sm">
           <EventForm />
+          <Reservation/>
           <AboutUsSection/>
          <ProfilePage/>
-         <LoginPopup/>
+         <LoginForm/>
+      
       </div>
     </main>
   );
