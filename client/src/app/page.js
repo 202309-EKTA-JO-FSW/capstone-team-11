@@ -7,7 +7,7 @@ import HeroSection from "./components/HeroSection";
 import Contact from "./components/Contact";
 import AboutUsSection from "./components/AboutUsSection/AboutUsSection";
 import LoginForm from './components/LoginForm/LoginForm';
-import ProfilePage from "./components/ProfilePage/ProfilePage";
+
 import EventForm from "./components/EventForm";
 import Reservation from "./components/Reservation";
 
@@ -25,7 +25,7 @@ export default function Home() {
           <EventForm />
           <Reservation/>
           <AboutUsSection/>
-         <ProfilePage/>
+        
          <LoginForm/>
       
       </div>
