@@ -1,12 +1,12 @@
 import React from 'react';
 
-const Sidebar = () => {
+const Sidebar = ({addClassName}) => {
   return (
-    <div style={styles.Card}>
+    <div className={addClassName} style={styles.Card}>
       <button style={styles.BackButton}>Back</button>
       <div style={styles.SidebarItems}>
         <SidebarItem text="Account Settings" />
-        <SidebarItem text="Profile Information" />
+        <SidebarItem text="Profile Page" />
         <SidebarItem text="Payment Methods" />
         <SidebarItem text="Security" />
         <SidebarItem text="Event Preferences" />
@@ -27,8 +27,8 @@ const SidebarItem = ({ text }) => {
 
 const styles = {
   Card: {
-    width: '343px',
-    height: '630px',
+    width: '280px',
+    height: '600px',
     backgroundColor: '#f0f0f0',
     padding: '20px',
     borderRadius: '10px',
