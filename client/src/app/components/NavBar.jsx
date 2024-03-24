@@ -26,8 +26,7 @@ export default function navbar() {
   const navItems = [
     { id: 1, text: "Home" },
     { id: 2, text: "About" },
-    { id: 3, text: "Services" },
-    { id: 5, text: "Contact" },
+    { id: 3, text: "Contact" },
   ];
   return (
     <nav className="bg-white border-gray-200 dark:bg-gray-900 w-full px-2 md:px-16 lg:px-16 xl:px-16">

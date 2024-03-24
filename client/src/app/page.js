@@ -5,6 +5,7 @@ import PopularEvents from "./components/PopularEvents";
 import FeaturedEvents from "./components/FeaturedEvents";
 import VipCard from "./components/VipCard";
 import HeroSection from "./components/HeroSection";
+import Profile from "./components/ProfilePage/ProfileLayout";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <FeaturedEvents />
       <VipCard />
       <Footer />
+      <Profile />
     </main>
   );
 }
