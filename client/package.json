@@ -35,7 +35,7 @@
     "tailwind-merge": "^2.2.2",
     "tailwindcss-animate": "^1.0.7",
     "typeface-poppins": "^1.1.13",
-    "react-calendar": "^4.8.0",
+    "react-calendar": "^4.8.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
