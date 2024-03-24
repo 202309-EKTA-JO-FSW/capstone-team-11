@@ -27,15 +27,15 @@
     "lucide-react": "^0.359.0",
     "next": "14.1.0",
     "postcss-reporter": "^7.1.0",
-    "react": "^18",
+    "react": "^18.2.0",
     "react-date-range": "^2.0.0-alpha.4",
     "react-day-picker": "^8.10.0",
-    "react-dom": "^18",
+    "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.3",
     "tailwind-merge": "^2.2.2",
     "tailwindcss-animate": "^1.0.7",
     "typeface-poppins": "^1.1.13",
-    "uploadthing": "^6.6.0"
+    "react-calendar": "^4.8.0",
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",

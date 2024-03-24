@@ -34,15 +34,6 @@ const EventForm = () => {
               className=" w-full px-4 min-h-40 resize-y h-12 border  border-gray-300 rounded-md bg-opacity-80 bg-white text-gray-800 text-base font-poppins font-medium outline-none"
             ></textarea>
           </div>
-          {/* 
-      <div className=" w-full px-4 flex items-center mb-3">
-        <label for="number" className=" w-full px-4 inline-block mr-6 text-right 
-                                 font-bold text-gray-600">Range</label>
-        <input type="range" id="range" name="range" placeholder="range" 
-               className=" w-full px-4 flex-1 py-2 border-b-2 border-gray-400 focus:border-green-400 
-                      text-gray-600 placeholder-gray-400
-                      outline-none"></input>
-      </div> */}
 
           <div className=" w-full px-4 flex flex-col mx-8  my-5">
             <div className=" w-full   text-black py-2 pb font-medium leading-4">
@@ -56,7 +47,7 @@ const EventForm = () => {
               className=" px-4 block w-full text-sm text-slate-500
                file:mr-4 file:py-2 file:px-4
                file:rounded-full file:border-0
-               file:text-sm file:font-semibold
+               file: file:font-semibold
                file:bg-[#030303] file:text-[#f0f0f0]
                "
               multiple
@@ -114,15 +105,6 @@ const EventForm = () => {
               className=" w-full px-4  h-12 border-gray-300 border box-border rounded-lg bg-opacity-8 text-black text-sm font-poppins font-medium  bg-white outline-none"
             ></input>
           </div>
-
-          {/* <div className=" w-full px-4 flex items-center mb-5">
-        <label for="number" className=" w-full px-4 inline-block w-20 mr-6 text-right 
-                                 font-bold text-gray-600">Month</label>
-        <input type="month" id="month" name="month" placeholder="month" 
-               className=" w-full px-4 flex-1 py-2 border-b-2 border-gray-400 focus:border-green-400 
-                      text-gray-600 placeholder-gray-400
-                      outline-none"></input>
-      </div> */}
 
           <div className=" w-full px-4 flex flex-col mx-4  mb-3">
             <div className=" w-full  text-black py-2 font-medium leading-4">
@@ -228,6 +210,7 @@ const EventForm = () => {
           </div>
         </form>
       </div>
+
     </div>
   );
 };
