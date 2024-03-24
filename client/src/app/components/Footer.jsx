@@ -4,12 +4,12 @@ export default function Footer() {
   return (
     <footer className="bg-white dark:bg-gray-900 w-full bottom-0 border-t">
       <div className="mx-auto">
-        <div className="grid grid-cols-1 gap-2 py-6 lg:py-8 md:grid-cols-2 px-4 md:px-20 ">
+        <div className="grid grid-cols-1 gap-2 py-6 lg:py-8 md:grid-cols-2 px-4 md:px-20 mx-16">
           <div className="flex flex-col justify-between">
             <div>
               <a href="/">
                 <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                  EventMast
+                  EventMaster
                 </span>
               </a>
               <div className="self-center text-wrap text-sm font-light whitespace-nowrap dark:text-white">
@@ -17,14 +17,14 @@ export default function Footer() {
               </div>
             </div>
             <div className="contents self-center text-sm font-light whitespace-nowrap dark:text-white">
-              EventMast &copy; 2024
+              EventMaster &copy; 2024
             </div>
           </div>
-          <div className="flex flex-col items-start md:items-end">
+          <div className="flex flex-col items-start md:items-end lg:items-end xl:items-end">
             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
               Help
             </h2>
-            <ul className="text-gray-500 dark:text-gray-400 font-medium flex flex-col items-start md:items-end">
+            <ul className="text-gray-500 dark:text-gray-400 font-medium flex flex-col items-start md:items-end lg:items-end xl:items-end">
               <li className="mb-4">
                 <a href="#" className=" hover:underline">
                   FAQs
@@ -48,9 +48,9 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        <div className="py-6 bg-gray-100 dark:bg-gray-700 md:flex md:items-center md:justify-between px-10 md:px-20">
+        <div className="py-6 bg-gray-100 dark:bg-gray-700 md:flex md:items-center md:justify-between lg:flex lg:items-center lg:justify-between xl:flex xl:items-center xl:justify-between px-16 md:px-20">
           <span className="text-sm text-gray-500 dark:text-gray-300 sm:text-center">
-            © 2023 <a href="/">EventMast™</a>. All Rights Reserved.
+            © 2024 <a href="/">EventMaster™</a>. All Rights Reserved.
           </span>
           <div className="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse">
             <a

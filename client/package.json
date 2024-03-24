@@ -11,16 +11,36 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "^14.1.0",
+    "@heroicons/react": "^1.0.6",
+    "@material-tailwind/react": "^2.1.9",
+    "@radix-ui/react-avatar": "^1.0.4",
+    "@radix-ui/react-dropdown-menu": "^2.0.6",
+    "@radix-ui/react-label": "^2.0.2",
+    "@radix-ui/react-select": "^2.0.0",
+    "@radix-ui/react-slot": "^1.0.2",
+    "@radix-ui/react-tabs": "^1.0.4",
+    "@uploadthing/react": "^6.4.0",
+    "axios": "^1.6.8",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "date-fns": "^3.6.0",
+    "lucide-react": "^0.359.0",
+    "next": "14.1.0",
+    "postcss-reporter": "^7.1.0",
     "react": "^18.2.0",
-    "react-calendar": "^4.8.0",
+    "react-date-range": "^2.0.0-alpha.4",
+    "react-day-picker": "^8.10.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.3",
-    "typeface-poppins": "^1.1.13"
+    "tailwind-merge": "^2.2.2",
+    "tailwindcss-animate": "^1.0.7",
+    "typeface-poppins": "^1.1.13",
+    "react-calendar": "^4.8.0",
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
     "postcss": "^8",
     "tailwindcss": "^3.3.0"
-  }
+  },
+  "proxy": "http://127.0.0.1:3001/api"
 }
