@@ -11,9 +11,9 @@ require("dotenv").config();
 const app = express();
 const port = 3001;
 
-const connect = async () => {
+const connect = () => {
   try {
-    await mongoose.connect(process.env.MONGODB2);
+    mongoose.connect(process.env.MONGODB2);
     console.log("Connected to mongoDB.");
   } catch (error) {
     throw error;
@@ -43,7 +43,13 @@ app.use((err, req, res, next) => {
     stack: err.stack,
   });
 });
-app.listen(port, () => {
+if (process.env.NODE_ENV !== "test") {
+  app.listen(port, () => {
+    connect();
+    console.log(`Server listening on port ${port}`);
+  });
+} else {
+  // In test environment, just connect to the database without listening on a port
   connect();
-  console.log(`Server listening on port ${port}`);
-});
+}
+module.exports = app;
