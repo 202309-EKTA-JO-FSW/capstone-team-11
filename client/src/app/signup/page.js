@@ -78,7 +78,8 @@ export default function Signup() {
             alt="Image"
             className="h-full w-full object-cover"
             height="1080"
-            src="https://placehold.co/600x400?text=Event+Master"
+            // src="https://placehold.co/600x400?text=Event+Master"
+            src="https://scontent.famm12-1.fna.fbcdn.net/v/t39.30808-6/358701817_650401810444257_6439428121413427659_n.png?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFsJ05qvf2kwHBAn4NlD7lfHdIWXWr5Wiod0hZdavlaKpyM7JAGlFRfrKBiCAXTPPk9PcBGdw-1fCtenEWiVg96&_nc_ohc=sTCC-vLkq7QAX8vv9qn&_nc_ht=scontent.famm12-1.fna&oh=00_AfC45IgbFrfGEGgIbvxy2P-zaeaktUZFlZKVGxK1F_nSeg&oe=66071FF7"
             style={{
               aspectRatio: "1920/1080",
               objectFit: "cover",
