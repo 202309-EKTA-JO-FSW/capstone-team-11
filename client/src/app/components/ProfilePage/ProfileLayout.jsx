@@ -22,7 +22,7 @@ const styles = {
     justifyContent: 'center', 
     alignItems: 'flex-start', 
     padding: '20px', 
-    minHeight: '100vh', 
+    // minHeight: '100vh', 
   },
   sidebar: {
     marginRight: '20px', 

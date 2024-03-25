@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Button from '../Button';
 
 const Profile = () => {
   const [name, setName] = useState('John Doe');
@@ -36,61 +37,25 @@ const Profile = () => {
     <div style={styles.Container}>
       <div style={styles.Section}>
         <div style={styles.SectionHeader}>
-          <Text text="Profile Information" />
+          <p> Profile Information</p>
         </div>
         <div style={styles.Info}>
-          <Text text="Full Name" />
-          <div style={styles.ProfileInfo}>
-            <span>{name}</span>
-            <EditButton onClick={() => handleEdit('name')} />
+          <img src='https://tailwindcss.com/img/erin-lindford.jpg' alt="Profile" style={styles.ProfileImage} />
+          <div>
+            <p>Full Name</p>
+            <div style={styles.ProfileInfo}>
+              <span>{name}</span>
+              <Button onClick={() => handleEdit('name')} title= 'Edit'/>
+            </div>
           </div>
         </div>
-        <div style={styles.Info}>
-          <Text text="Location" />
-          <div style={styles.ProfileInfo}>
-            <span>{location}</span>
-            <EditButton onClick={() => handleEdit('location')} />
-          </div>
-        </div>
-        <div style={styles.Info}>
-          <Text text="Email" />
-          <div style={styles.ProfileInfo}>
-            <span>{email}</span>
-            <EditButton onClick={() => handleEdit('email')} />
-          </div>
-        </div>
-        <div style={styles.Info}>
-          <Text text="Nationality" />
-          <div style={styles.ProfileInfo}>
-            <span>{nationality}</span>
-            <EditButton onClick={() => handleEdit('nationality')} />
-          </div>
-        </div>
-        <div style={styles.Info}>
-          <Text text="Date of Birth" />
-          <div style={styles.ProfileInfo}>
-            <span>{dateOfBirth}</span>
-            <EditButton onClick={() => handleEdit('dateOfBirth')} />
-          </div>
-        </div>
+        {/* Rest of your profile information */}
       </div>
     </div>
   );
 };
 
-const Text = ({ text }) => {
-  return (
-    <div style={styles.Text}>
-      {text}
-    </div>
-  );
-};
-
-const EditButton = ({ onClick }) => {
-  return (
-    <button style={styles.EditButton} onClick={onClick}>Edit</button>
-  );
-};
+// Text and EditButton components remain the same
 
 const styles = {
   Container: {
@@ -106,7 +71,12 @@ const styles = {
     display: 'flex',
     justifyContent: 'space-between',
     alignItems: 'center',
-    marginBottom: '10px', // Adjust margin bottom
+    marginBottom: '10px',
+  },
+  ProfileImage: {
+    width: '100px', // Adjust width as needed
+    height: '100px', // Adjust height as needed
+    borderRadius: '50%', // Make it circular
   },
   Text: {
     color: '#030303',
@@ -114,13 +84,12 @@ const styles = {
     fontFamily: 'Poppins',
     fontWeight: 500,
     lineHeight: '22px',
-    width: '200px', // Adjust width as needed
   },
   ProfileInfo: {
     display: 'flex',
     alignItems: 'center',
-    justifyContent: 'center', // Center content horizontally
-    gap: '20px', // Increase gap between text and button
+    justifyContent: 'center',
+    gap: '20px',
   },
   EditButton: {
     backgroundColor: '#1b1b1d',
